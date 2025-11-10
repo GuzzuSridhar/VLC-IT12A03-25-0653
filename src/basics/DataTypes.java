@@ -14,6 +14,7 @@ public class DataTypes {
          * boolean
          */
         // object
+        // String
 
         // byte
         // 8 bit signed integers (positive and negative)
@@ -42,7 +43,7 @@ public class DataTypes {
         // chr
         // 16 bit uncode characters
         char c = 'a';
-        char b = '\u0000';
+        char b = '\u03B1';
 
         // boolean
         boolean isTrue = false;
@@ -55,7 +56,13 @@ public class DataTypes {
         System.out.println(f);
         System.out.println(d);
         System.out.println(c);
+        System.out.println(b);
         System.out.println(isTrue);
+
+        // String
+        // object type and hence has no size
+        String msg = "This is coded in java 21";
+        System.out.println(msg.length());
 
     }
 
