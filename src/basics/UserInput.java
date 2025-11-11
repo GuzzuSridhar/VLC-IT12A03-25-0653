@@ -20,5 +20,7 @@ public class UserInput {
         age = scan.nextInt(); // scan the numeric input from user
         System.out.println(" You are " + age + " years old");
 
+        scan.close();
+
     }
 }
