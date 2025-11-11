@@ -110,8 +110,17 @@ public class Operators {
         System.out.println(" --" + x + "<" + y + " || " + z + ">" + x + " is " + (x < y || z > x));
         System.out.println("-- Logical NOT !");
         System.out.println(" -- Negates the out put of a expression");
-        System.out.println(" --!(" + x + "<" + y + " && " + z + "<" + x + ") is " + !(x < y && z < x));
-        System.out.println(" --!(" + x + "<" + y + " || " + z + ">" + x + ") is " + !(x < y || z > x));
+        System.out.println(" --!(" + x + "<" + y + " & " + z + "<" + x + ") is " + !(x < y && z < x));
+        System.out.println(" --!(" + x + "<" + y + " | " + z + ">" + x + ") is " + !(x < y || z > x));
+
+        System.out.println("-- && is a short circuit operation ");
+        System.out.println("--  if any of conditions is false the other conditions are not checked and returns False");
+        System.out.println("-- & is a non-short circuit operation");
+        System.out.println("--  All conditions are checked");
+        System.out.println("-- || is a short circuit operation");
+        System.out.println("--  if any of conditions is True the other conditions are not checked and returns True");
+        System.out.println("-- | is a non-short circuit operation");
+        System.out.println("--  All conditions are checked");
 
     }
 }
