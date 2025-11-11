@@ -1,3 +1,5 @@
+package stringobjects;
+
 public class stringobject {
     public static void main(String[] args) {
         // declare Strings
