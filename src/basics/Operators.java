@@ -57,5 +57,24 @@ public class Operators {
         System.out.println("-- can be used with Numeric values");
         System.out.println("-- output is not applied to the current operation");
         System.out.println("-- " + x-- + " " + x);
+
+        System.out.println("-------------Assignment Operators-----------");
+        System.out.println("Equals Operator");
+        System.out.println("--" + "x = 5" + " => " + " 5 ");
+
+        System.out.println("Plus Equals Operator");
+        System.out.println("--" + x + " += 5" + " => " + (x += 5));
+
+        System.out.println("Minus Equals Operator");
+        System.out.println("--" + x + " -= 5" + " => " + (x -= 5));
+
+        System.out.println("Multiplication Equals Operator");
+        System.out.println("--" + x + " *= 5" + " => " + (x *= 5));
+
+        System.out.println("Division Equals Operator");
+        System.out.println("--" + x + " /= 5" + " => " + (x /= 5));
+
+        System.out.println("Modulus Equals Operator");
+        System.out.println("--" + x + " %= 5" + " => " + (x %= 5));
     }
 }
