@@ -1,0 +1,83 @@
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# macOS / Windows
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Java project specific
+# =========================
+bin/
+out/
+build/
+target/
+classes/
+
+# Eclipse/NetBeans (if any mixed setup)
+.project
+.classpath
+.settings/
+.nbproject/
+
+# =========================
+# IntelliJ IDEA (optional)
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# =========================
+# Environment
+# =========================
+.env
