@@ -9,14 +9,14 @@ public class UserInput {
         int age;
         // scan.next();
 
-        System.out.println("Enter your city: ");
+        System.out.print("Enter your city: ");
         city = scan.nextLine(); // scan the text input from user
 
-        System.out.println("Enter your name: ");
+        System.out.print("Enter your name: ");
         name = scan.next(); // scan the single word input from user
         System.out.println("Welcome " + name + " From " + city);
 
-        System.out.println("Enter your age: ");
+        System.out.print("Enter your age: ");
         age = scan.nextInt(); // scan the numeric input from user
         System.out.println(" You are " + age + " years old");
 
