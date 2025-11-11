@@ -76,5 +76,28 @@ public class Operators {
 
         System.out.println("Modulus Equals Operator");
         System.out.println("--" + x + " %= 5" + " => " + (x %= 5));
+
+        System.out.println("-------------Comparision Operators-----------");
+        x = 10;
+        y = 20;
+        System.out.println("-- The output of a comparision operator is boolean");
+        System.out.println("Equality check");
+        System.out.println("-- " + x + " == " + y + " is " + (x == y));
+
+        System.out.println("InEquality check");
+        System.out.println("-- " + x + " != " + y + " is " + (x != y));
+
+        System.out.println("Greater Than");
+        System.out.println("-- " + x + " > " + y + " is " + (x > y));
+
+        System.out.println("Greater Than equals");
+        System.out.println("-- " + x + " >= " + y + " is " + (x >= y));
+
+        System.out.println("Less Than");
+        System.out.println("-- " + x + " < " + y + " is " + (x < y));
+
+        System.out.println("Less Than equals");
+        System.out.println("-- " + x + " <= " + y + " is " + (x <= y));
+
     }
 }
