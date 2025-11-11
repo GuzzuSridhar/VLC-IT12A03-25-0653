@@ -99,5 +99,19 @@ public class Operators {
         System.out.println("Less Than equals");
         System.out.println("-- " + x + " <= " + y + " is " + (x <= y));
 
+        System.out.println("-------------Logical Operators-----------");
+        int z = 30;
+        System.out.println("-- The output of a Logical operator is boolean");
+        System.out.println("-- Logical AND &&");
+        System.out.println(" --" + x + "<" + y + " && " + z + "<" + x + " is " + (x < y && z < x));
+        System.out.println(" --" + x + "<" + y + " && " + z + ">" + x + " is " + (x < y && z > x));
+        System.out.println("-- Logical OR ||");
+        System.out.println(" --" + x + "<" + y + " || " + z + "<" + x + " is " + (x < y || z < x));
+        System.out.println(" --" + x + "<" + y + " || " + z + ">" + x + " is " + (x < y || z > x));
+        System.out.println("-- Logical NOT !");
+        System.out.println(" -- Negates the out put of a expression");
+        System.out.println(" --!(" + x + "<" + y + " && " + z + "<" + x + ") is " + !(x < y && z < x));
+        System.out.println(" --!(" + x + "<" + y + " || " + z + ">" + x + ") is " + !(x < y || z > x));
+
     }
 }
