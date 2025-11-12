@@ -27,6 +27,6 @@ public class DefaultValues {
         System.out.println("The default value for double type is " + d.d);
         System.out.println("The default value for String type is " + d.s);
 
-        System.out.println(DefaultValues.count);
+        System.out.println("The default value for int(static) type is :" + DefaultValues.count);
     }
 }
