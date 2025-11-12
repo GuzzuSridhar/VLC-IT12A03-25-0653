@@ -28,6 +28,7 @@ public class EmpArray {
             e.sal = scan.nextFloat();
             scan.nextLine();
         }
+        scan.close();
 
         // rerieve the emp info
         for (Employee e : employees) {
