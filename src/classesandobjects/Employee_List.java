@@ -2,7 +2,7 @@ package classesandobjects;
 
 public class Employee_List {
     public static void main(String[] args) {
-        Employee emp1 = new Employee();
+        Employee emp1 = new Employee(); // new keyword allocates the memory for the object
         Employee emp2 = new Employee();
 
         // add emp1 info
