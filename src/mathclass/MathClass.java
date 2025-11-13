@@ -13,5 +13,7 @@ public class MathClass {
         System.out.println(Math.min(x, y));
         System.out.println(Math.max(Math.max(x, y), z));
 
+        System.out.println(Math.pow(10, 10));
+
     }
 }
