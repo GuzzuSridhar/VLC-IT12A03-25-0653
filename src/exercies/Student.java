@@ -32,4 +32,13 @@ public class Student {
         this.marksInScience = marksInScience;
     }
 
+    @Override
+    public String toString() {
+        return "studName-" + studName + ", rollNumber-" + rollNumber + ", grade-" +
+                grade + ", marksInEnglish-"
+                + marksInEnglish + ", marksInMath-" + marksInMath + ", marksInScience-" +
+                marksInScience;
+
+    }
+
 }

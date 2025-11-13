@@ -7,7 +7,7 @@ public class StudentList {
     static Scanner scan;
 
     public static void main(String[] args) {
-        students = new Student[3];
+        students = new Student[1];
         scan = new Scanner(System.in);
         int grade = 0, id = 0;
         String name = "";
@@ -61,10 +61,13 @@ public class StudentList {
         }
     }
 
-    static void displayRecords() {
+    public static void displayRecords() {
         for (Student student : students) {
-            System.out.println(student.studName + " - " + student.rollNumber + " - " + student.grade + " - "
-                    + student.marksInEnglish + " - " + student.marksInMath + " - " + student.marksInScience);
+            // System.out.println(student.studName + " - " + student.rollNumber + " - " +
+            // student.grade + " - "
+            // + student.marksInEnglish + " - " + student.marksInMath + " - " +
+            // student.marksInScience);
+            System.out.println(student); // toString() invoked
         }
     }
 }
