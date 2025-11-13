@@ -13,5 +13,6 @@ public class DateTimeDemo {
         System.out.println(today.getHour());
         System.out.println(today.getMinute());
         System.out.println(today.getSecond());
+
     }
 }

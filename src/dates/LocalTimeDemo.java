@@ -2,6 +2,7 @@ package dates;
 
 import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 
 public class LocalTimeDemo {
     public static void main(String[] args) {
@@ -17,6 +18,9 @@ public class LocalTimeDemo {
         // time in a different zone
         LocalTime timeSg = LocalTime.now(ZoneId.of("Asia/Singapore")); // "Asia/Kolkata"
         System.out.println(timeSg);
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("h:m a");
+        System.out.println(timeSg.format(formatter));
 
     }
 }
