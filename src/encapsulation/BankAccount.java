@@ -49,4 +49,10 @@ public class BankAccount {
         this.acctype = acctype;
     }
 
+    @Override
+    public String toString() {
+        return "BankAccount [accId=" + accId + ", accName=" + accName + ", balance=" + balance + ", acctype=" + acctype
+                + "]";
+    }
+
 }
