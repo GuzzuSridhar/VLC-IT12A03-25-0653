@@ -1,5 +1,6 @@
 package exercies;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class StudentList {
@@ -9,8 +10,9 @@ public class StudentList {
     public static void main(String[] args) {
         students = new Student[1];
         scan = new Scanner(System.in);
-        int grade = 0, id = 0;
+        int grade = 0, id = 0, dd = 0, mm = 0, yy = 0;
         String name = "";
+        LocalDate dob;
 
         // add records
         for (int i = 0; i < students.length; i++) {
@@ -22,7 +24,17 @@ public class StudentList {
             System.out.print("Enter Student Grade: ");
             grade = scan.nextInt();
             scan.nextLine();
-            students[i] = new Student(name, id, grade);
+            System.out.print("Enter Student date of Birth (Date): ");
+            dd = scan.nextInt();
+            scan.nextLine();
+            System.out.print("Enter Student date of Birth (Month): ");
+            mm = scan.nextInt();
+            scan.nextLine();
+            System.out.print("Enter Student date of Birth (Year): ");
+            yy = scan.nextInt();
+            scan.nextLine();
+            dob = LocalDate.of(yy, mm, dd);
+            students[i] = new Student(name, id, grade, dob);
         }
 
         // display the records
