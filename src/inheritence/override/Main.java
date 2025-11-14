@@ -13,6 +13,6 @@ public class Main {
         Vehicle ref = new Car();
         ref.start(); // calls the start of car
         ref.wheels();
-        ref.noOverride();
+        ref.noOverride(); // since it is not overridden in the car class calls the Vehicle class method
     }
 }
