@@ -9,4 +9,10 @@ public interface Bank {
 
     double rdInterest(double amt, int period);
 
+    default void important() {
+    }
+
+    static void testStatic() {
+    }
+
 }
