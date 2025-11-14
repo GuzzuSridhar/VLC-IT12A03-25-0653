@@ -16,9 +16,11 @@ public class InputLoop {
             } catch (InputMismatchException ip) {
                 System.out.print("Enter a Valid Number: ");
                 scan.nextLine();
+            } finally {
+                // always executed, no matter an exception is raised or not
             }
         }
-        System.out.println(age);
         scan.close();
+        System.out.println(age);
     }
 }
